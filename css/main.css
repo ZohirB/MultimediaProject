@@ -154,13 +154,6 @@ html {
     box-shadow: 0 4px 0 #809A6F;
 }
 
-/* end landing */
-
-/* start product */
-/* .product .container{
-background-image: url(../images/i\ \(7\).webp);
-background-size: cover;
-} */
 .product .container h1 {
     text-align: center;
     padding-top: 10px;
@@ -171,9 +164,9 @@ background-size: cover;
 .product .container .button .fitem {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    gap: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -196,22 +189,14 @@ background-size: cover;
 .table-item,
 .sofa-item {
     display: grid;
-    gap: 10px;
+    margin: auto;
+    /*gap: 10%;*/
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    padding-left: 50px;
-    padding-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
     /* background: #809A6F; */
 
 }
-
-/* .bed-item .item,
-.table-item .item,
-.sofa-item .item{
-    margin: auto;
-
-} */
-
-
 
 .bed-item .item h4,
 .table-item .item h4,
@@ -225,14 +210,6 @@ background-size: cover;
 .sofa-item .item p {
     text-align: center;
     color: rgb(107, 99, 99);
-}
-
-
-.table-item .item img,
-.bed-item .item img {
-    width: 338px;
-    height: 220px;
-
 }
 
 .container .button .fitem input {
