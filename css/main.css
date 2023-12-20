@@ -392,8 +392,10 @@
   .bed-item .item h4,
   .table-item .item h4,
   .sofa-item .item h4 {
-    color: #a25b5b;
-    text-align: center;
+    display: flex;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
   }
   
   .bed-item .item p,
@@ -751,8 +753,8 @@
   }
   .pricing .plans .plan .head {
     padding: 40px 20px;
-    border-top: 1px solid var(--#809a6f);
-    border-bottom: 1px solid var(--#809a6f);
+    border-top: 1px solid #809a6f;
+    border-bottom: 1px solid #809a6f;
   }
   .pricing .plans .plan .head h3 {
     font-weight: normal;
@@ -779,7 +781,7 @@
     font-weight: normal;
   }
   .pricing .plans .plan ul {
-    border-bottom: 1px solid var(--#809a6f);
+    border-bottom: 1px solid #809a6f;
   }
   .pricing .plans .plan ul li {
     padding: 20px;
@@ -789,7 +791,7 @@
     content: "";
     width: 120px;
     height: 1px;
-    background-color: var(--#809a6f);
+    background-color: #809a6f;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -800,7 +802,7 @@
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    border: 1px solid var(--#809a6f);
+    border: 1px solid #809a6f;
     width: fit-content;
     margin: 30px auto;
   }
@@ -813,7 +815,7 @@
     display: block;
     width: fit-content;
     margin: 20px auto;
-    background-color: var(--#809a6f);
+    background-color: #809a6f;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -864,12 +866,12 @@
     border-right: none;
     background: none;
     padding: 20px 20px 20px 60px;
-    caret-color: var(--#809a6f);
+    caret-color: #809a6f;
     width: calc(100% - 130px);
   }
   .subscribe form input[type="submit"] {
     width: 130px;
-    background-color: var(--#809a6f);
+    background-color: #809a6f;
     color: white;
     padding: 10px 20px;
     border: 1px solid white;
@@ -925,7 +927,7 @@
     height: 200px;
   }
   .contact .content form input[type="submit"] {
-    background-color: var(--#809a6f);
+    background-color: #809a6f;
     color: white;
     padding: 20px;
     border: none;
@@ -1014,7 +1016,7 @@
   }
   .footer .copyright span {
     font-weight: bold;
-    color: var(--#809a6f);
+    color: #809a6f;
   }
   /* End Footer */
   /* graphberry */
